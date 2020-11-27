@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+   font-family: cursive;
+
+}
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center;
+
+  border-radius: 5px;
+}
+body {
+  font: 20px/40px 'Bungee', Helvetica, Arial, bold, sans-serif;
+  color: #222;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+   font-family: 'Dancing Script', cursive;
+}
+header{
+  font-size: 24px;
+  line-height: 48px;
+}
+h4 {
+  font-size: 21px;
+  font-family: 'Bungee', cursive;
+}
+h4 #clock {
+  font-size: 36px;
+  display: block;
+  padding: 5px 0px;
+}
+
+.page {
+  font-size: 80px;
+  color: black;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #FFFFFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #055659, 0 0 20px #055659, 0 0 30px #055659, 0 0 40px #055659, 0 0 50px #055659, 0 0 60px #055659;
+  }
+}
+header{
+  font-size: 30px;
+  line-height: 50px;
+  font: bold;
+}
+footer {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Dancing Script', cursive;
+font-family:  cursive, blue;
+font: bold;
+background-color: black;
+color: red;
+margin: 0px;
+  padding: 0px;
+  text-align: left ;
+   position: fixed;
+   left: 0;
+  bottom: 0;
+  width: 100%;
+}
+p a{
+	color:#055659;
+	margin: 10px;
+  padding: 0px;
+  text-align: left ;
+	
+}
