@@ -1,60 +1,133 @@
 body {
-  background-color: black;
+ /* background-color: black;*/
    font-family: cursive;
-
+   background-color: rgba(27, 30, 31, 0.13);
+ 
 }
+
 .page {
-  width: 80%;
-  max-width: 960px;
+  width: 100%;
+  max-width: 700px;
   margin: 50px auto;
   text-align: center;
-
+ font-family: cursive;
+ font-family: 'Dancing Script', cursive;
   border-radius: 5px;
 }
 body {
   font: 20px/40px 'Bungee', Helvetica, Arial, bold, sans-serif;
-  color: #222;
+background-color: rgba(27, 30, 31, 0.13);
   margin: 0px;
   padding: 0px;
   text-transform: uppercase;
-   font-family: 'Dancing Script', cursive;
+ 
+}
+h1 {
+  color:  #c97522;
 }
 header{
   font-size: 24px;
-  line-height: 48px;
+  line-height: 20px;
+  
 }
-h4 {
+h4 h3{
   font-size: 21px;
+  display: block;
   font-family: 'Bungee', cursive;
+  color: #814203;
+  font-style: inherit;
 }
 h4 #clock {
-  font-size: 36px;
-  display: block;
-  padding: 5px 0px;
+  font-size: 70px;
+  display: middle;
+  
+  color: #c97522;
 }
 
 .page {
-  font-size: 80px;
-  color: black;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  font-size: 20px;
+  font-weight: bolder;
+   background-color: rgba(27, 30, 31, 0.13);
+   display: inline;
+  
+ /* -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;*/
 }
 
-@-webkit-keyframes glow {
+/*@-webkit-keyframes glow {
   from {
     text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #FFFFFF;
   }
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #055659, 0 0 20px #055659, 0 0 30px #055659, 0 0 40px #055659, 0 0 50px #055659, 0 0 60px #055659;
-  }
+  }*/
+
+p a{
+	color: white;
+	margin: 10px;
+  padding: 0px;
+  text-align: left ;
+	background-color: rgba(27, 30, 31, 0.13);
+	 display: inline-block;
 }
-header{
-  font-size: 30px;
-  line-height: 50px;
-  font: bold;
+
+/*in case of create navbar*/
+
+h5 a{
+	color: white;
+
 }
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+   display: inline-block;
+}
+  
+
+.navbar ul li a{
+    display: inline-block;
+  color:white;
+     padding: 2px;
+ font-weight: bold;
+ font-size: large;
+color: #fcdab7;
+text-overflow: clip;
+text-shadow: #055659;
+position: relative;
+text-align: right;
+display: inline-block;
+}
+
+
+.morning {
+  background-image: url('img/morning.jpg');
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px
+  
+  
+
+}
+
+.afternoon {
+  background-image: url('img/afternoon.jpg');
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px
+}
+
+
+.night {
+  background-image: url('img/night.jpg');
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px
+
+}
+
 footer {
   text-transform: uppercase;
   font-size: 15px;
@@ -62,7 +135,7 @@ footer {
 font-family:  cursive, blue;
 font: bold;
 background-color: black;
-color: red;
+color: blue;
 margin: 0px;
   padding: 0px;
   text-align: left ;
@@ -71,10 +144,9 @@ margin: 0px;
   bottom: 0;
   width: 100%;
 }
-p a{
-	color:#055659;
-	margin: 10px;
-  padding: 0px;
-  text-align: left ;
-	
+
+footer  a{
+  color: blue;
+  text-overflow: clip;
+  padding-bottom: 20px;
 }
